@@ -1,30 +1,70 @@
-# 01-secure-aws-vpc
-Terraform project to deploy a secure AWS VPC with EC2, public/private subnets, and a Bastion host.
-# Secure AWS VPC Deployment (Terraform)
+<h1 align="center">🔐 Secure AWS VPC Deployment (Terraform)</h1>
 
-This project provisions a secure Virtual Private Cloud (VPC) on AWS using Terraform.
+<p align="center">
+  Deploy a production-grade VPC with Terraform, built for real-world AWS environments and cloud security portfolios.
+</p>
 
-## 🛠️ Tech Stack
-- **Cloud Provider:** AWS
-- **Infrastructure as Code:** Terraform (v1.5.7)
-- **Region:** us-east-1
-- **VPC CIDR:** 10.0.0.0/16
+---
 
-## 🔐 Security Focus
-- Infrastructure is defined and deployed as code
-- No use of default VPC (custom VPC only)
-- Project set up for secure subnets, routing, and tagging
-- Deployed using Terraform from a Git-tracked repo (CI-ready)
+## ⚙️ Tech Stack
+- **☁️ Cloud Provider**: AWS
+- **🛠️ IaC Tool**: Terraform (v1.5.7)
+- **📍 Region**: us-east-1
+- **📦 CIDR**: `10.0.0.0/16`
 
-## 📦 Resources Created
-- 1x Custom AWS VPC with name tag: `MainVPC`
-- Prepped for future additions:
-  - Public + private subnets
-  - Internet Gateway / NAT Gateway
-  - Bastion Host
+---
 
-## 🚀 How to Deploy
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/Cloudby-MB/01-secure-aws-vpc.git
-   cd 01-secure-aws-vpc
+## 🔐 Security Highlights
+- Custom VPC only (no default VPC)
+- Designed for **least privilege** and **network segmentation**
+- Deployable via Git + Terraform CLI (CI/CD friendly)
+- Future-ready for compliance tagging (SOC2, GDPR)
+
+---
+
+## 🧱 Infrastructure Deployed
+| Resource     | Details          |
+|--------------|------------------|
+| `aws_vpc`    | Custom VPC with Name tag `MainVPC` |
+| CIDR Block   | `10.0.0.0/16`    |
+| Region       | us-east-1        |
+
+---
+
+## 🚀 Deploy It Yourself
+
+Clone the repo:
+```bash
+git clone https://github.com/Cloudby-MB/01-secure-aws-vpc.git
+cd 01-secure-aws-vpc
+terraform init
+terraform plan
+terraform apply
+---
+
+## 💡 What I Practiced / Learned
+- Structured Terraform provider/resource blocks
+- Created a secure, custom AWS VPC
+- Managed infrastructure using Git and Terraform CLI
+- Deployed AWS infrastructure without clicking in Console
+- Validated deployed VPC through AWS Management Console
+
+---
+
+## 🛠️ What’s Next
+- Add public + private subnets
+- Deploy a Bastion Host
+- Add route tables + IGW/NAT Gateway
+- Secure networking with IAM roles and Security Groups
+- Integrate tfsec, Bandit, and Snyk for security scanning
+
+---
+
+## 📸 Deployment Screenshot (Optional)
+> _You can upload a screenshot of your VPC here to show proof of work!_
+
+---
+
+## 🧑‍💻 Author
+**Cloudby-MB**  
+_Building secure cloud environments with automation-first principles._
