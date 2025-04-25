@@ -1,4 +1,10 @@
 <h1 align="center">🔐 Secure AWS VPC Deployment (Terraform)</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge&logo=amazonaws" />
+  <img src="https://img.shields.io/badge/IaC-Terraform-7B42BC?style=for-the-badge&logo=terraform" />
+  <img src="https://img.shields.io/badge/Security-Enabled-brightgreen?style=for-the-badge&logo=datadog" />
+  <img src="https://img.shields.io/badge/Status-Deployed-success?style=for-the-badge&logo=github" />
+</p>
 
 <p align="center">
   Deploy a production-grade VPC with Terraform, built for real-world AWS environments and cloud security portfolios.
