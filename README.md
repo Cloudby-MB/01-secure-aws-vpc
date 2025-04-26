@@ -58,3 +58,42 @@ terraform init
 terraform plan
 terraform apply
 ```
+
+---
+
+## 💡 What I Practiced / Learned
+- Structured Terraform provider/resource blocks properly
+- Built a secure, custom VPC
+- Used Git + Terraform CLI instead of clicking through AWS Console
+- Validated infrastructure through AWS Management Console
+- Followed Infrastructure as Code (IaC) best practices
+
+---
+
+## 🛠️ What's Next
+- Add public and private subnets
+- Deploy a Bastion Host for secure access
+- Create route tables and connect to Internet Gateway and NAT Gateway
+- Lock down access with IAM roles and Security Groups
+- Integrate tfsec, Bandit, and Snyk for security scanning
+
+---
+
+## 🖥️ Architecture Diagram
+
+> Full infrastructure overview:
+
+![VPC Architecture](https://raw.githubusercontent.com/Cloudby-MB/01-secure-aws-vpc/main/Cloud_VPC_Architecture_Diagram.png)
+
+---
+
+## 📸 Deployment Proof
+
+_(Optional: Add a screenshot showing your deployed VPC inside the AWS Management Console.)_
+
+---
+
+## 🧑‍💻 Author
+
+**Cloudby-MB**  
+_Building secure cloud environments with automation-first principles._
