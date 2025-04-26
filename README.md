@@ -89,7 +89,9 @@ terraform apply
 
 ## 📸 Deployment Proof
 
-_(Optional: Add a screenshot showing your deployed VPC inside the AWS Management Console.)_
+Here is proof of the successful VPC deployment:
+
+![Deployment Proof](deployment-proof-vpc.png)
 
 ---
 
