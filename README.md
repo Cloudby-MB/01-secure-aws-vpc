@@ -71,7 +71,7 @@ terraform apply
 
 > Full infrastructure overview:
 
-![VPC Architecture](Cloud_VPC_Architecture_Diagram.png)
+![VPC Architecture](./Cloud_VPC_Architecture_Diagram.png)
 
 ---
 
