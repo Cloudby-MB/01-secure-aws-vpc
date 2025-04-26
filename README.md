@@ -67,7 +67,11 @@ terraform apply
 ---
 
 ## 📸 Deployment Screenshot (Optional)
-> _You can upload a screenshot of your VPC here to show proof of work!_
+## 🖥️ Architecture Diagram
+
+> Full infrastructure overview:
+
+![VPC Architecture](Cloud_VPC_Architecture_Diagram.png)
 
 ---
 
