@@ -70,7 +70,7 @@ terraform apply
 
 > Full infrastructure overview:
 
-![VPC Architecture](https://github.com/Cloudby-MB/01-secure-aws-vpc/blob/main/Cloud_VPC_Architecture_Diagram.png?raw=true)
+![VPC Architecture](https://raw.githubusercontent.com/Cloudby-MB/01-secure-aws-vpc/main/Cloud_VPC_Architecture_Diagram.png)
 
 ---
 
