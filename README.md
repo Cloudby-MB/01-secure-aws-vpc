@@ -56,4 +56,4 @@ git clone https://github.com/Cloudby-MB/01-secure-aws-vpc.git
 cd 01-secure-aws-vpc
 terraform init
 terraform plan
-terraform apply
+terraform apply```
