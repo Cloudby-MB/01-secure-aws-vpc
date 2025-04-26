@@ -66,12 +66,11 @@ terraform apply
 
 ---
 
-## 📸 Deployment Screenshot (Optional)
 ## 🖥️ Architecture Diagram
 
 > Full infrastructure overview:
 
-![VPC Architecture](./Cloud_VPC_Architecture_Diagram.png)
+![VPC Architecture](https://github.com/Cloudby-MB/01-secure-aws-vpc/blob/main/Cloud_VPC_Architecture_Diagram.png?raw=true)
 
 ---
 
