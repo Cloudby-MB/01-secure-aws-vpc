@@ -95,6 +95,14 @@ Here is proof of the successful VPC deployment:
 
 ---
 
+## 📸 Subnets Deployment Proof
+
+Here is proof of the deployed **Public** and **Private** subnets, as seen in the AWS Management Console:
+
+![Subnets Proof](subnets-proof.png)
+
+---
+
 ## 🧑‍💻 Author
 
 **Cloudby-MB**  
