@@ -93,7 +93,7 @@ Here is proof of the successful VPC deployment:
 
 ![Deployment Proof](deployment-proof-vpc.png)
 
-Here is proof of the succesful Bastion Host deployment:
+Here is proof of the successful Bastion Host deployment:
 
 ![Bastion Host Proof](Bastion_Host_Deployment_Proof.png)
 
