@@ -39,11 +39,16 @@
 ---
 
 ## 🧱 Infrastructure Deployed
-| Resource     | Details          |
-|--------------|------------------|
-| `aws_vpc`    | Custom VPC with Name tag `MainVPC` |
-| CIDR Block   | `10.0.0.0/16`    |
-| Region       | us-east-1        |
+| Resource     | Details                                |
+|--------------|----------------------------------------|
+| `aws_vpc`    | Custom VPC with Name tag `MainVPC`     |
+| `aws_subnet` | Public & Private subnets               |
+| `aws_nat_gateway` | For outbound traffic from private |
+| `aws_internet_gateway` | Public subnet access        |
+| `aws_route_table` | Routing for both subnet types     |
+| `aws_instance` | Bastion Host in public subnet        |
+| `aws_key_pair` | Secure SSH key generation            |
+| `aws_security_group` | Bastion Host security group    |
 
 ---
 
@@ -62,20 +67,24 @@ terraform apply
 ---
 
 ## 💡 What I Practiced / Learned
-- Structured Terraform provider/resource blocks properly
-- Built a secure, custom VPC
-- Used Git + Terraform CLI instead of clicking through AWS Console
-- Validated infrastructure through AWS Management Console
-- Followed Infrastructure as Code (IaC) best practices
+	•	✅ Built a production-ready, secure AWS VPC using Terraform
+	•	✅ Learned proper use of Terraform provider, resource, and state management
+	•	✅ Automated infrastructure provisioning without clicking through AWS Console
+	•	✅ Validated resources directly in AWS Console (VPC, Subnets, NAT, Bastion Host)
+	•	✅ Used Git for version control and VSCode for IaC development
+	•	✅ Managed SSH key pairs and IAM security best practices
+	•	✅ Followed Infrastructure as Code (IaC) and DevSecOps principles
 
 ---
 
 ## 🛠️ What's Next
-- Add public and private subnets
-- Deploy a Bastion Host for secure access
-- Create route tables and connect to Internet Gateway and NAT Gateway
-- Lock down access with IAM roles and Security Groups
-- Integrate tfsec, Bandit, and Snyk for security scanning
+	•	🔧 Deploy public and private EC2 instances into their respective subnets
+	•	🛡️ Lock down access using IAM roles and fine-tuned Security Groups
+	•	📡 Configure NAT Gateway for secure outbound access
+	•	🚪 Use Bastion Host for SSH into private resources
+	•	🔍 Integrate security tools like tfsec, Snyk, and Bandit
+	•	📘 Reference NIST, OWASP, and MITRE for cloud security standards
+	•	🧪 Add compliance tags (SOC2, HIPAA-ready examples)
 
 ---
 
@@ -93,19 +102,19 @@ Here is proof of the successful VPC deployment:
 
 ![Deployment Proof](deployment-proof-vpc.png)
 
-Here is proof of the successful Bastion Host deployment:
-
-![Bastion Host Proof](Bastion_Host_Deployment_Proof.png)
-
----
-
 ## 📸 Subnets Deployment Proof
 
 Here is proof of the deployed **Public** and **Private** subnets, as seen in the AWS Management Console:
 
 ![Subnets Proof](subnets-proof.png)
 
+
+Here is proof of the successful Bastion Host deployment:
+
+![Bastion Host Proof](Bastion_Host_Deployment_Proof.png)
+
 ---
+
 
 ## 🧑‍💻 Author
 
