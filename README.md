@@ -119,4 +119,6 @@ Here is proof of the successful Bastion Host deployment:
 ## 🧑‍💻 Author
 
 **Cloudby-MB**  
-_Building secure cloud environments with automation-first principles._
+_Building secure cloud environments with automation-first principles.
+
+<!-- update check -->
