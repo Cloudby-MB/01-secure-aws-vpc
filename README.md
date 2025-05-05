@@ -92,6 +92,7 @@ terraform apply
 Here is proof of the successful VPC deployment:
 
 ![Deployment Proof](deployment-proof-vpc.png)
+![Bastion Host Proof](Bastion_Host_Deployment_Proof.png)
 
 ---
 
